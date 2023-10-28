@@ -29,6 +29,7 @@ Optionally install Material Icon Theme
 
 In terminal: type "expo init SOME_NAME"
 
+- This will create a template folder for an app that you can run on your own mobile device through Expo Go.
 - Expo is a framework that is used to build React Native apps. It is basically a bundle with tools and services built for React Native, that will help you get started with building React Native apps with ease.
 - A “managed workflow” is when you let Expo handle specifying important properties through a convenient app.json, as well build your app on their servers. A “bare workflow” is when you’re not solely restricted to the “Expo ecosystem,” and thus are free to do more customization to your app.
 - We will proceed with bare workflow
