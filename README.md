@@ -1,6 +1,8 @@
 # Setup
 
-**Install Node.js:** https://nodejs.org/en. Choose the "recommended for most" users option
+**Prerequisite:** git, vscode (preferred)
+
+**We use Node.js:** https://nodejs.org/en. We install this in the following step.
 
 **In terminal:**
 
@@ -19,7 +21,7 @@
 
 **Windows ONLY:**
 
-- choco install nodejs-lts
+- choco install nodejs-lts (if nodejs-lts not installed)
 - npm set init-author-email "email address"
 - npm set init-author-name "name"
 - npm set init-license "Apache-2.0"
