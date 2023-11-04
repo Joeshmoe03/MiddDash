@@ -55,3 +55,6 @@ Will go over next steps in next meeting ( setting up server and sample database 
 
 - See for install?: "https://github.com/facebook/create-react-app"
 - If you are creating a project yourself for the first time: "npm init react-app my-app"
+
+**Create react app with Typescript template
+- npx create-react-app . --template typescript
