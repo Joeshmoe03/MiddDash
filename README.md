@@ -46,3 +46,12 @@ WorkBench: https://dev.mysql.com/downloads/workbench/
 - similar installation to Windows
 
 Will go over next steps in next meeting ( setting up server and sample database for practice )
+
+**Install Express**
+
+- In terminal: "npm i express"
+
+**DO NOT DO THIS BUT READ THIS**
+
+- See for install?: "https://github.com/facebook/create-react-app"
+- If you are creating a project yourself for the first time: "npm init react-app my-app"
