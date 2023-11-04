@@ -1,3 +1,10 @@
+
+TECH STACK USED
+MySQL ( instead of MongoDB )
+Express.js
+React.js
+Node.js
+
 # Setup
 
 **Prerequisite:** git, vscode (preferred)
