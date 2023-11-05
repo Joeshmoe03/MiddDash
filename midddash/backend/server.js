@@ -1,15 +1,24 @@
-const express = require("express");
-const mysql = require("mysql");
-
-const app = express();
-
-const db = mysql.createConnection({
-  host: "localhost",
+var mysql = require("mysql2");
+var connection = mysql.createConnection({
+  host: "127.0.0.1",
+  database: "test",
   user: "root",
   password: "MiddDev23",
-  database: "",
 });
 
-app.listen(3306, () => {
-  console.log("Listening...");
+connection.connect(function (error) {
+  if (error) {
+    console.error("Error connecting: " + error.stack);
+    return;
+  }
+  console.log("Connected as id " + connection.threadID);
+});
+
+connection.query("SELECT * FROM customer", function (error, results, fields) {
+  if (error) {
+    throw error;
+  }
+  results.forEach((result) => {
+    console.log(result);
+  });
 });
