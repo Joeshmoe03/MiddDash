@@ -10,7 +10,7 @@ const dbConfig = {
 
 // Need to implement account authetication
 const userData = {
-  username: "JohnSmith",
+  username: "test",
   email: "JohnSmith@middlebury.edu",
   password: "1234",
   first_name: "John",
